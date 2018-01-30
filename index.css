@@ -8,10 +8,11 @@ body{
 li{
   display:inline-block;
   padding:1em 2em;
+  color:aliceblue;
 }
 #nav-bar{
   width: 100%;
-  background-color: azure;
+  background-color: rgb(11, 12, 12);
 }
 .name{
   font-family:fantasy;
@@ -32,6 +33,7 @@ p{
 }
 #home{
   width:100%;
+  background-color: black;
 }
 .home-content{
   display:inline-block;
