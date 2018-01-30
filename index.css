@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+}
+#container{
+  width: 100%;
+  background-color: darkgray;
+}
+li{
+  display:inline-block;
+  padding:1em 2em;
+}
+#nav-bar{
+  width: 100%;
+  background-color: azure;
+}
+.name{
+  font-family:fantasy;
+  font-size: 5em;
+  color: aliceblue;
+}
+.myfield{
+  font-family: Courier New, Courier, monospace;
+  font-size:1.5em;
+  color: aliceblue;
+}
+p span{
+  display: block;
+}
+p{
+  margin-bottom:0.1em;
+  margin-top:0em; 
+}
+#home{
+  width:100%;
+}
+.home-content{
+  display:inline-block;
+  text-align:left;
+  width:33%;
+}
