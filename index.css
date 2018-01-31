@@ -1,3 +1,4 @@
+/* Global CSS */
 body{
   text-align: center;
 }
@@ -5,38 +6,92 @@ body{
   width: 100%;
   background-color: darkgray;
 }
-li{
+
+.main-container{
+  display:inline-block;
+  text-align:center;
+  width:60%;
+}
+.side-container{
+  display:inline-block;
+  width:19%;
+}
+/*navigation bar */
+#nav-bar{
+  top: 0;
+  right:0;
+  width:100%;
+  background-color: rgb(65, 66, 66);
+  position: fixed;
+}
+ul.menu li {
   display:inline-block;
   padding:1em 2em;
+}
+.menu a{
+  text-decoration: none;
   color:aliceblue;
 }
-#nav-bar{
-  width: 100%;
-  background-color: rgb(11, 12, 12);
-}
+
+/* Home */
 .name{
+  padding-top:1.3em;
   font-family:fantasy;
-  font-size: 5em;
+  font-size: 6em;
   color: aliceblue;
 }
 .myfield{
+  padding-bottom:2em;
   font-family: Courier New, Courier, monospace;
-  font-size:1.5em;
+  font-size:1.7em;
   color: aliceblue;
 }
 p span{
   display: block;
 }
-p{
+p.name{
   margin-bottom:0.1em;
   margin-top:0em; 
 }
 #home{
   width:100%;
-  background-color: black;
 }
-.home-content{
+.main-container.intro{
   display:inline-block;
   text-align:left;
-  width:33%;
+  width:44%;
+}
+.side-container.intro{
+  display:inline-block;
+  width:26%;
+}
+
+/* Brief introduction*/
+.main-container.resume{
+  background-color:rgb(168, 34, 34);
+  color:aliceblue;
+  font-size: 1.5em;
+}
+.resume-container{
+  padding:3em 4em;
+  text-align: center;
+}
+div.specific-info{
+  padding-bottom: 2em;
+}
+a.resume-download{
+  background-color: rgb(234, 234, 238);
+  text-decoration: none;
+  padding:0.5em;
+  color:Red;
+}
+/* Professional Knowledge*/
+ul.knowledge-skill li{
+  display:inherit;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0.4em;
+}
+#ref-professional,#ref-experiences,#ref-portfolio,#ref-contact{
+  padding-bottom:4em;
 }
